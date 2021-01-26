@@ -1,0 +1,8 @@
+.git/
+.gitignore
+.idea/
+build/
+.gradle/
+gradle/
+k8s/
+*.md

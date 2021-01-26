@@ -1,0 +1,14 @@
+apiVersion: skaffold/v2beta9
+kind: Config
+metadata:
+  name: c12-app
+build:
+  artifacts:
+  - image: c12-app
+    context: .
+    jib: {}
+
+deploy:
+  kubectl:
+    manifests:
+    - k8s/k8s-*

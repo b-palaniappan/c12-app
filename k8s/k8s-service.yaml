@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: c12-service
+spec:
+  selector:
+    app: c12-app
+  ports:
+    - port: 80
+      targetPort: 8080

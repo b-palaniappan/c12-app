@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongoadmin:mongoPass@mongo-service:27017/c12app?authSource=admin
+logging:
+  level:
+    root: info
